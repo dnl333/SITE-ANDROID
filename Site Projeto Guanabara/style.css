@@ -26,7 +26,7 @@ a{background-color: transparent;color:white;font-size: 19px;text-decoration: non
 a:hover{background-color: #3AD07E;border-radius: 5px;}
 
 main{background-color: white; 
-    display: block;
+   
     width:700px; 
     padding: 10px;
     margin: auto;
@@ -36,6 +36,8 @@ main{background-color: white;
     border-radius: 10px;
     text-align: justify;
     max-width: 100%;}
+
+body > main{max-width: 700px;min-width: 320px;width: auto;}
 
 main > .arial{font-family: Arial, Helvetica, sans-serif;font-size: 20px;color: black;font-weight: 400; }
 
